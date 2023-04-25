@@ -26,7 +26,7 @@ The following input fields are required for each car:
 
 The following tables will be generated based on the kilometers input data:
 
-1.	Table 1: Displays all cars with their price, kilometers, brand, and year with less than 50.000 kilometers.
-2.	Table 2: Displays all cars with their price, kilometers, brand, and year with more than 50.000 and less than 150.000 kilometers.
-3.	Table 3: Displays all cars with their price, kilometers, brand, and year with more than 150.000 kilometers.
+Table 1: Displays all cars with their price, kilometers, brand, and year with less than 50.000 kilometers.
+Table 2: Displays all cars with their price, kilometers, brand, and year with more than 50.000 and less than 150.000 kilometers.
+Table 3: Displays all cars with their price, kilometers, brand, and year with more than 150.000 kilometers.
 
