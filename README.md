@@ -18,8 +18,11 @@ To use this application, simply follow these steps:
 The following input fields are required for each car:
 
 •	Car price
+
 •	Car kilometers
+
 •	Car brand
+
 •	Car year
 
 # Output Tables
