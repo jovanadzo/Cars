@@ -26,12 +26,12 @@ function Insert() {
 
         errorDugme.textContent = "All fields must be filled"
     }
-    else if (dugme.textContent.toLowerCase() === "potvrdi" &&
+    else if (dugme.textContent.toLowerCase() === "Submit" &&
         automobili.filter(e => e.price === vehicle_price.value).length !== 0) {
         errorDugme.textContent = "vehicle_price postoji u bazi"
     }
     else {
-        if (dugme.textContent.toLowerCase() === "potvrdi") {
+        if (dugme.textContent.toLowerCase() === "Submit") {
 
             errorDugme.textContent = ""
             automobili.push(NoviAuto)
@@ -132,7 +132,7 @@ function ShowAndClear() {
     brand.value = "";
     production_year.value = "";
     kilometers.value = "";
-    dugme.textContent = 'Potvrdi'
+    dugme.textContent = 'Submit'
 }
 
 
