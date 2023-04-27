@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Plac</title>
+    <title>Cars</title>
     <link rel="stylesheet" type="text/css" href="cars.css">
 </head>
 
@@ -14,13 +14,13 @@
     <div id="box" class="block">
         <div>
             <form class="form-div">
-                <input id="vehicle_price" type="number" class="input-field" placeholder="Price" required>
+                <input id="vehicle_price" type="number" class="input-field" placeholder="Price" required min="1" max="17">
                 <p id="erorReg" style="color: red;"></p>
             </form>
         </div>
         <div>
             <form class="form-div">
-                <input id="km" type="number" class="input-field" placeholder="Kilometers" min="0" max="1000000"
+                <input id="km" type="number" class="input-field" placeholder="Kilometers" min="0" max="2000000"
                     step="5000" required>
                 <p id="erorKm" style="color: red;"></p>
             </form>
