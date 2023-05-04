@@ -66,7 +66,7 @@ function Show(arr) {
             </tr>
             </tr>`
         }
-        else if (Number(arr[i].kilometers) > 50000 && Number(arr[i].kilometers) < 150000) {
+        else if (Number(arr[i].kilometers) >= 50000 && Number(arr[i].kilometers) < 150000) {
             b += `
                 <tr>
                 <td>${arr[i].vehicle_price}</td>
