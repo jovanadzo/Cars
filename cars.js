@@ -109,7 +109,7 @@ function Edit(niz, index) {
     production_year.value = niz[index].production_year;
     vehicle_price.value = niz[index].vehicle_price;
     kilometers.value = niz[index].kilometers;
-    dugme.textContent = "Confirm";
+    dugme.textContent = "Save";
     dugme.value = i;
 
 
@@ -135,6 +135,6 @@ function ShowAndClear() {
     dugme.textContent = "Confirm"
 }
 
-automobili.length > 0 && ShowAndClear()
+
 
 
