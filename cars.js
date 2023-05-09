@@ -26,12 +26,12 @@ function Insert() {
 
         errorDugme.textContent = "All fields must be filled"
     }
-    else if (dugme.textContent.toLowerCase() === "Confirm" &&
+    else if (dugme.textContent.toLowerCase() === "confirm" &&
         automobili.filter(e => e.price === vehicle_price.value).length !== 0) {
         errorDugme.textContent = "vehicle_price postoji u bazi"
     }
     else {
-        if (dugme.textContent.toLowerCase() === "Confirm") {
+        if (dugme.textContent.toLowerCase() === "confirm") {
 
             errorDugme.textContent = ""
             automobili.push(NoviAuto)
@@ -109,7 +109,7 @@ function Edit(niz, index) {
     production_year.value = niz[index].production_year;
     vehicle_price.value = niz[index].vehicle_price;
     kilometers.value = niz[index].kilometers;
-    dugme.textContent = "Sacuvaj";
+    dugme.textContent = "Confirm";
     dugme.value = i;
 
 
@@ -132,8 +132,9 @@ function ShowAndClear() {
     brand.value = "";
     production_year.value = "";
     kilometers.value = "";
-    dugme.textContent = 'Confirm'
+    dugme.textContent = "Confirm"
 }
 
+automobili.length > 0 && ShowAndClear()
 
 
